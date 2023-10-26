@@ -4,6 +4,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    "plugin:cypress/recommended",
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -19,5 +20,6 @@ module.exports = {
   },
   globals: {
     JSX: 'readonly',
+    cy: true,
   },
 }
