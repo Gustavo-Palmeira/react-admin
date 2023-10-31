@@ -1,6 +1,7 @@
 {
   "name": "test-admin",
   "private": true,
+  "type": "module",
   "homepage": "https://Gustavo-Palmeira.github.io/react-admin",
   "scripts": {
     "dev": "vite",
